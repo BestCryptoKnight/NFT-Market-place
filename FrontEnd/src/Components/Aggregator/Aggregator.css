@@ -1,0 +1,137 @@
+@font-face {
+  font-family: "PoppinsFonts";
+  src: url("../../Assets/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Neue Haas Grotesk Display Pro";
+  src: url("../../Assets/fonts/NeueHaasGrotesk/NeueHaasDisplay-Mediu.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Neue Haas Grotesk Display Pro1";
+  src: url("../../Assets/fonts/NeueHaasGrotesk/NeueHaasDisplay-Mediu.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+.itemcount {
+  font-family: "Neue Haas Grotesk Display Pro1";
+}
+/* popup */
+.popuptittle {
+  font-family: "Neue Haas Grotesk Display Pro";
+}
+/* card */
+.cardtitle {
+  font-family: "Neue Haas Grotesk Display Pro";
+  color: black;
+  font-size: 1.3rem;
+}
+.cardid {
+  font-family: "Neue Haas Grotesk Display Pro";
+  color: #6549f6;
+}
+.cardprice {
+  font-family: "Neue Haas Grotesk Display Pro";
+}
+.cardfloor {
+  font-family: "Neue Haas Grotesk Display Pro";
+  color: #c4c4c4;
+}
+.aggregatortitle {
+  font-family: "PoppinsFonts";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22.9615px;
+  line-height: 34px;
+}
+.aggregatormaintitle {
+  font-family: "PoppinsFonts";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22.9615px;
+  line-height: 28px;
+}
+.aggregatorbordericons {
+  width: 40px;
+  height: 39px;
+  border-radius: 82.4703px;
+  border: 1.76px solid transparent;
+  background-image: linear-gradient(#fff, #fff),
+    linear-gradient(93.69deg, #7b61ff 0%, #00dad9 107.12%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.aggregatorparagraph {
+  font-family: "PoppinsFonts";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21.7625px;
+  line-height: 33px;
+}
+.aggregatorbuy {
+  font-size: 13.3926px;
+  font-family: "PoppinsFonts";
+  font-style: normal;
+  font-weight: 500;
+}
+.auctiontext {
+  font-family: "PoppinsFonts";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.3926px;
+  line-height: 20px;
+  color: #888888;
+}
+/* 2nd element */
+.backgroundborder {
+  background: linear-gradient(93.69deg, #7b61ff 0%, #00dad9 107.12%);
+  border-radius: 66.9628px;
+}
+.floor {
+  font-family: "PoppinsFonts";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16.0711px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.priceborder {
+  border: 3px solid transparent;
+  border-radius: 10px;
+  background-image: linear-gradient(#fff, #fff),
+    linear-gradient(93.69deg, #7b61ff 0%, #00dad9 107.12%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+input[type="text"] {
+  border: none !important;
+  outline: none !important;
+  background-color: transparent !important;
+}
+.subtext {
+  font-family: "PoppinsFonts";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+}
+.accordiantitle {
+  font-family: "PoppinsFonts";
+  font-size: 13.3926px;
+  line-height: 20px;
+  color: #000000;
+}
+.collectiontext {
+  font-family: "PoppinsFonts";
+  font-size: 20px;
+  line-height: 120%;
+  color: #000000;
+}
+.bordersetactive {
+  width: 180px;
+  height: 4px;
+  background: linear-gradient(93.69deg, #7b61ff 0%, #00dad9 107.12%);
+}

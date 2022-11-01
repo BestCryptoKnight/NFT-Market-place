@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "PoppinsFonts";
+  src: url("../../Assets/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+}
+.footertitle {
+  font-family: "PoppinsFonts";
+  font-size: 32px;
+  line-height: 38px;
+  color: #f4eeff;
+}
+.footersubtitle {
+  font-family: "PoppinsFonts";
+  color: #f4eeff;
+  font-size: 16px;
+}

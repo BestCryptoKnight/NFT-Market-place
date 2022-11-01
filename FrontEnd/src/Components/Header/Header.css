@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "NewHaansFonts";
+  src: url("../../Assets/fonts/NeueHaasGrotesk/NeueHaasDisplay-Roman.ttf")
+    format("truetype");
+}
+.dropdownborder {
+  border: 2px solid #6549f6;
+  background-image: linear-gradient(#fff, #fff),
+    linear-gradient(93.69deg, #7b61ff 0%, #00dad9 107.12%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.buttonborder {
+  background: linear-gradient(93.69deg, #7b61ff 0%, #00dad9 107.12%);
+  border-radius: 30px;
+}
+
+.border-mobile-menu {
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  background-image: linear-gradient(#fff, #fff),
+    linear-gradient(93.69deg, #7b61ff 0%, #00dad9 107.12%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.font-apply {
+  font-family: "NewHaansFonts";
+}
+/* new Popup css */
+.bg-backdrop {
+  background: rgba(0, 15, 32, 0.7);
+}
+
+.backdrop-blur-sm {
+  --tw-backdrop-blur: blur(4px);
+}
+
+.text-gray-dark {
+  --tw-text-opacity: 0.7;
+  color: rgba(130, 130, 130, var(--tw-text-opacity));
+}
+
+.text-green {
+  --tw-text-opacity: 1;
+  color: rgba(39, 174, 96, var(--tw-text-opacity));
+}
+
+.border1 {
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  background-image: linear-gradient(#fff, #fff),
+    linear-gradient(93.69deg, #7b61ff 0%, #00dad9 107.12%);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+/* Zoom in animation*/
+.zoom-in {
+  animation: zoom-in-zoom-out 1s ease-in;
+}
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.05, 1.05);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
